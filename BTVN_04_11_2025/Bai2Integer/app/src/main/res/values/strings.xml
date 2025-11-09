@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bai2-Integer</string>
+    <string name="nhap_so_nguyen">Nhập số nguyên</string>
+    <string name="so_le">Số lẻ</string>
+    <string name="so_nguyen_to">Số nguyên tố</string>
+    <string name="so_hoan_hao">Số hoàn hảo</string>
+    <string name="so_chan">Số chẵn</string>
+    <string name="so_chinh_phuong">Số chính phương</string>
+    <string name="so_fibonacci">Số Fibonacci</string>
+    <string name="no_valid_number">Không có số nào thỏa mãn</string>
+</resources>
