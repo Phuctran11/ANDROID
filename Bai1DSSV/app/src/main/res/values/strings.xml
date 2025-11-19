@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bai1-DSSV</string>
+    <string name="mssv">Mã số sinh viên</string>
+    <string name="name">Họ tên</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="std_name">Tên sinh viên</string>
+    <string name="MSSV">MSSV</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- EditText nhập MSSV -->
+    <EditText
+        android:id="@+id/edtMSSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mssv"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- EditText nhập Họ tên -->
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- Nút Add và Update -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:backgroundTint="#5A4FCF"
+            android:textColor="#FFFFFF"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:backgroundTint="#5A4FCF"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- RecyclerView hiển thị danh sách sinh viên -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStudents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
