@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="nav_games" />
+    <item type="id" name="nav_apps" />
+    <item type="id" name="nav_search" />
+    <item type="id" name="nav_books" />
+</resources>
